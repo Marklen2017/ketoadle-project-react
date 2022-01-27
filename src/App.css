@@ -1,0 +1,79 @@
+.noUi-horizontal{
+    width: '-webkit-fill-available';
+}
+.noUi-handle {
+   width:'-webkit-fill-available';
+}
+
+.noUi-tooltip {
+    display: none;
+}
+.noUi-active .noUi-tooltip {
+    display: block;
+}
+
+.button#vertical-tab-1 {
+    outline: none
+}
+
+.button#vertical-tab-1:focus {
+    outline: none
+}
+
+.jobParagraph{
+    -webkit-line-clamp: 3;
+}
+
+.seekerPortfolio{
+    -webkit-line-clamp: 2;
+}
+
+.footerClass{
+    z-index: 10000000 !important;
+    bottom: 0px !important;
+    position: sticky !important;
+    width: 100%;
+    height: auto;
+}
+
+.cookieContent{
+    background-color: #FFC526;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    height: 50px;
+    flex-direction: column;
+}
+
+.skillChips{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #e5e5e5;
+    border: none;
+    cursor: default;
+    height: 24px;
+    outline: none;
+    padding: 0;
+    font-size: 14px;
+    color: #333333;
+    font-family:"Open Sans", sans-serif;
+    white-space: nowrap;
+    align-items: center;
+    border-radius: 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.react-calendar{
+margin: 0 auto;
+}
+
+.dropdown-toggle::after{
+    color: #00af50;
+}

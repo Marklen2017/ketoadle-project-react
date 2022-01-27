@@ -1,0 +1,21 @@
+.date-range .react-datepicker-wrapper {
+  display: flex;
+  flex: 1;
+  /* max-width: 160px; */
+}
+
+.date-range .react-datepicker__input-container {
+  width: 100%;
+}
+
+input.text-center.form-control.form-control-sm{
+  padding: 0.375rem 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 575px) {
+  .date-range .react-datepicker-wrapper {
+    max-width: 100%;
+  }
+}
